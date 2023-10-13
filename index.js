@@ -6,7 +6,7 @@ const TOKEN = "2132598511:AAH4ERYL4gVJ3YI4TpsBT6ZL05ubAEH2h0g";
 const game1Name = "Rocket_Queen";
 /* const game2Name = "Lucky_Jet";
 const game3Name = "Aviator";  */
-/* const game1Name = "jaja_lucky"; */
+/* const game1Name = "jaja_lucky"; sad*/
 const game2Name = "jaja_lucky";
 const game3Name = "hack";
 
