@@ -9,7 +9,7 @@ mongoose.connect(mongoDBURL, { useNewUrlParser: true, useUnifiedTopology: true }
     .then(() => console.log('Подключено к MongoDB Atlas'))
     .catch((err) => console.error('Ошибка при подключении к MongoDB Atlas:', err));
 
-const TOKEN = "6232879540:AAFQAzJOIL4ceUGfwk_0jX1a9RvEexQ469c";
+const TOKEN = "2132598511:AAH4ERYL4gVJ3YI4TpsBT6ZL05ubAEH2h0g";
 const game1Name = "Rocket_Queen";
 /* const game2Name = "Lucky_Jet";
 const game3Name = "Aviator";  */
