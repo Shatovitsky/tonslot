@@ -57,7 +57,15 @@ bot.onText(/\/start/,async (msg) => {
     const lastName = msg.from.last_name;
     const languageCode = msg.from.language_code;
     const isBot = msg.from.is_bot;
-    const existingUser = await User.findOne({ chatId: chatId });
+
+
+    let existingUser;  
+
+    try {
+        existingUser = await User.findOne({ chatId: chatId });
+    } catch (error) {
+        console.error('Ошибка при выполнении запроса к базе данных:', error);
+    }
 
     if (!existingUser) {
         const newUser = new User({
