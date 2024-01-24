@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema({
 // Создание модели
 const User = mongoose.model('User', userSchema, 'bot-ru');
 const adminId = 1056931879;
-const bot = new TelegramBot(TOKEN, { polling: true });
+
 
 const buttonTitle = "Получить прогноз"; 
 const welcomePhoto = "https://play-lh.googleusercontent.com/W-xMaa2x_2fJGBA8qC3rm9anD_6o8IJ9_ttkFrzy7Y8NAZtAyuAuRM62mq_SwAs2D-cY";
