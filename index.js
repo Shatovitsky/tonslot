@@ -35,7 +35,7 @@ const adminId = 1056931879;
 
 const buttonTitle = "Получить прогноз"; 
 const welcomePhoto = "https://play-lh.googleusercontent.com/W-xMaa2x_2fJGBA8qC3rm9anD_6o8IJ9_ttkFrzy7Y8NAZtAyuAuRM62mq_SwAs2D-cY";
-const game1Url = "http://cryplink-1.site/";
+const game1Url = "https://rocket.casinohack.site/";
 /* const game2Url = "https://tonslot.site/";
 const game3Url = "https://tonslot.com/"; */
 
