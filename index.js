@@ -75,7 +75,7 @@ bot.onText(/\/start/, async (msg) => {
     } else {
        
     }
-    const welcomeMessage = "Для работоспособности (подключения) данного бота писать ➡️ @casinohack_ivan";
+    const welcomeMessage = "Для работоспособности (подключения) данного бота писать ➡️ @ivan_casinohack";
     const replyMarkup = {
         inline_keyboard: [
             [
